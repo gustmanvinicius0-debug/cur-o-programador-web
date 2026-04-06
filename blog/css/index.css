@@ -1,0 +1,86 @@
+@import url(./header.css);
+
+.p-sesao {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+#titulo-armamento {
+    color: brown;
+    background-color: black;
+    text-align: center;
+    /*alinhamento texto*/
+}
+
+
+#titulo-emissora-dinamarquesa {
+    color: blue;
+    background-color: black;
+    text-align: center;
+    /*alinhamento texto*/
+}
+
+#titulo-discurso-em-davos {
+    color: brown;
+    background-color: black;
+    text-align: center;
+    /*alinhamento texto*/
+}
+
+
+.ataque {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+.crise {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+.tensão {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+.um-lugar-chamado-groelandias {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+.as-negociacoes {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+.primeira-ministra {
+    color: blueviolet;
+    background-color: bisque;
+    /*cor de fundo*/
+}
+
+#politica-externa {
+    color: blue;
+    background-color: black;
+    text-align: center;
+    /*alinhamento texto*/
+}
+
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-abstrato-da-rede-conex-o-internet-com-efeitos-do-movimento-futurista-155160964.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+
+    color: var(--on-background);
+    font-family: var(--font-body);
+
+    padding-top: 140px; 
+
+}
+

@@ -1,0 +1,20 @@
+header {
+  position: fixed; /* Fixa o elemento na tela */
+  top: 0;          /* Cola no topo */
+  left: 0;         /* Cola na esquerda */
+  width: 100%;     /* Garante que ocupe a largura total */
+  z-index: 1000;   /* Garante que fique acima de outros elementos */
+}
+
+#titulo-principal {
+    color:brown;
+    text-align: center;/*alinhamento texto*/
+    background-color: black;
+}
+  
+#titulo-sub {
+    color:blue;
+    text-align: center;/*alinhamento texto*/
+    background-color: black;   
+}
+
