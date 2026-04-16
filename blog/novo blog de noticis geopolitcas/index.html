@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crise na Groenlândia 2026: Tensões e Atualizações Geopolíticas</title>
+    
+    <!-- SEO & Redes Sociais -->
+    <meta name="description" content="Análise sobre o plano de contingência da Dinamarca na Groenlândia e ameaças de anexação em 2026.">
+    <meta property="og:title" content="Crise na Groenlândia: O Plano de Explosivos Revelado">
+    <meta property="og:image" content="https://glbimg.com">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="theme-switch-wrapper">
+        <button id="theme-toggle" aria-label="Alternar modo de cor">
+            <span id="theme-icon">🌙</span>
+        </button>
+    </div>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1 id="titulo-principal">Dinamarca enviou explosivos à Groenlândia para destruir pistas em caso de invasão</h1>
+            <h2 id="titulo-sub">Plano de contingência revela o nível de tensão sem precedentes entre aliados da OTAN diante das ameaças de 2026.</h2>
+        </div>
+    </header>
+
+    <main class="content-container">
+        <article>
+           
+            <!-- Usei uma imagem estável de satélite do Ártico para garantir que carregue -->
+<img class="featured-img" 
+     src=https://www.sociedademilitar.com.br/wp-content/uploads/2025/06/Groenlandia_defesa.jpg
+     alt="Vigilância na Groenlândia - Vista por Satélite">
+
+
+            <section class="text-section">
+                <span class="update-tag">ATUALIZAÇÃO ABRIL 2026</span>
+                <p>O foco de tensões voltou a escalar em <strong>abril de 2026</strong>. Donald Trump retomou a defesa do controle americano sobre a ilha, visando o projeto de defesa estratégica no Ártico e o acesso a minerais raros expostos pelo degelo.</p>
+                <p>A emissora "DR" confirma que a Dinamarca enviou explosivos para as pistas de <strong>Nuuk e Kangerlussuaq</strong> para impedir desembarques militares dos EUA.</p>
+            </section>
+
+            <section class="highlight-alert">
+                Além de explosivos, as forças armadas dinamarquesas mobilizaram suprimentos de sangue, antecipando baixas em um possível confronto terrestre.
+            </section>
+
+            <section class="video-section">
+                <div class="video-responsive">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yx3k_sWtMT0?si=id8_ak8HYpN6W00R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-container">
+                <h3>Perguntas Frequentes (FAQ)</h3>
+                <div class="faq-item">
+                    <button class="faq-question">Qual o interesse dos EUA em 2026? <span>+</span></button>
+                    <div class="faq-answer">
+                        <p>Controle de rotas comerciais no Ártico e instalação de sistemas antimísseis contra novas tecnologias hipersônicas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">A Dinamarca aceita negociar? <span>+</span></button>
+                    <div class="faq-answer">
+                        <p>A premiê Mette Frederiksen mantém a posição de que a soberania da Groenlândia é inegociável.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter-box">
+                <h3>Boletim Ártico 2026</h3>
+                <p>Receba alertas urgentes sobre as movimentações na ilha.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" id="email-input" placeholder="Seu e-mail" required>
+                        <button type="submit" id="submit-btn">Inscrever</button>
+                    </div>
+                    <p id="form-message" class="hidden"></p>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p>"Estivemos na situação de política externa mais difícil desde a Segunda Guerra Mundial." - Mette Frederiksen (2026)</p>
+    </footer>
+
+    <script>
+        // Dark Mode Logic
+        const btn = document.getElementById("theme-toggle");
+        const icon = document.getElementById("theme-icon");
+        if (localStorage.getItem("theme") === "dark") {
+            document.body.classList.add("dark-mode");
+            icon.innerText = "☀️";
+        }
+        btn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+            const isDark = document.body.classList.contains("dark-mode");
+            icon.innerText = isDark ? "☀️" : "🌙";
+            localStorage.setItem("theme", isDark ? "dark" : "light");
+        });
+
+        // FAQ Logic
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+
+        // Newsletter Logic
+        document.getElementById('newsletter-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const msg = document.getElementById('form-message');
+            msg.innerText = "Cadastrado com sucesso!";
+            msg.classList.remove('hidden');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
+
